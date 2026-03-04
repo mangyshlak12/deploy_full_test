@@ -31,8 +31,8 @@ services:
       context: ./Full_deploy_project
     environment:
       SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/library
-      SPRING_DATASOURCE_USERNAME: admin
-      SPRING_DATASOURCE_PASSWORD: password
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: postgres
     depends_on:
       - db
     networks:
