@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/books")
-@CrossOrigin(origins = "http://34.170.27.30/")
+@CrossOrigin(origins = "http://34.170.27.30")
 
 public class BookController {
 
